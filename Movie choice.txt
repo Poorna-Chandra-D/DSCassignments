@@ -1,0 +1,12 @@
+thriller=["Dark","Mindhunter","Parasite","Inception","Insidious","Kahaani","Prison Break","Money Heist","War","Jack Ryan"]
+comedy=["Friends","3 Idiots","Golmaal","Brooklyn 99","How I Met Your Mother","Rick And Morty","The Big Bang Theory","The Office","Space Force"]
+watch=input()
+watch=watch.lower()
+thriller=map(str.lower,thriller)
+comedy=map(str.lower,comedy)
+if watch  in thriller:
+    print("Hurry,This is thriller")
+elif watch  in comedy :
+    print("Awesome,This is a comedy")
+else:
+    print("oh god ,Not my interest")
